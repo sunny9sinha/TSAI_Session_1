@@ -19,6 +19,7 @@ What is the use of the learning rate?
                      
 How are weights initialized?
 - Weights are initialized using following strategies :
+
           - Xavier initialization : This approach sets a layer's weight randomly from a uniform distribution bound between
                                     ±sqrt(6)/sqrt(ni + ni+1) , where ni is the number of incoming network connections to the layer and ni+1 is the number of outgoing                                         network connections from the layer. 
           - Kaiming initialization : This is mainly for neural networks with RELU like activation functions.In this approach we populate weight with numbers randomly                                         chosen from a standard normal distribution. Then multiply these numbers with sqrt(2)/sqrt(n), where n is the number of incoming                                           signals or connections from previous layer to given layer. Then we initialize bias to be zero.
