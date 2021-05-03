@@ -14,7 +14,7 @@ What is the use of the learning rate?
 - If this is large enough then it causes drastic updates and leads to divergent behavior.
 - If this is just right then it reaches the minimum point swiftly.
 - From the equation :
--                    W(new) = W(old) - LR(del(error)/del(W(old)) , where W(new) is the new weight and W(old) is the old weight for ith connection. del() is the        partial derivative.
+-                    W(new) = W(old) - LR(del(error)/del(W(old)) , where W(new) is the new weight and W(old) is the old weight for ith connection. del() is the  partial derivative.
                      We can see how LR (Learning Rate) affects the new weight calculation during backpropagation, it controls the rate at which the weight of a signal changes and reaches optimum value to reduce the error.
                      
 How are weights initialized?
