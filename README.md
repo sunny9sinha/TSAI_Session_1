@@ -1,4 +1,4 @@
-# TSAI_Session_1
+# ReadMe END2 Assignment 1
 Session_1 Assignment
 
 What is a neural network neuron?
